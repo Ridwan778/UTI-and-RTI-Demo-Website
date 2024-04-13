@@ -10,13 +10,25 @@
   </head>
   <body>
 
+    <!-- Header Start-->
+
+    <div class = 'header'>
+        <img class="logo" src = "./assets/logo.png"> </img>
+        <p> Women's Health and Disease Research </p>
+    </div>
 
     <!-- NavBar Start-->
 
-    <nav id="desktop-nav">
-        <img class="logo" src = "./assets/ICDDRB_logo.jpeg"> </img>
-        <div>
+    <nav class="desktop-nav">
+        <div class = "navbar">
             <ul class="nav-links">
+            <li> 
+                <div class = "dropdown">
+                    <div class = 'dropdown-home'>
+                        <a class = "home-link" href = "#"> Home </a>
+                    </div>
+                </div>
+            </li>
             <li>
                 <div class = "dropdown">
                     <p class = 'dropdown-menu'> Resources and Education </p>
@@ -26,7 +38,6 @@
                         <a href="#overview"> Antimicrobial Resistance </a>
                         <a href="#overview"> Innovative Cloth Pads </a>
                     </div>
-                    </button>
                 </div>
             </li>
 
@@ -38,7 +49,6 @@
                         <a href="#overview"> Treatment History </a>
                         <a href="#overview"> Genomic Analysis Report </a>
                     </div>
-                    </button>
                 </div>
             </li>
 
@@ -49,7 +59,6 @@
                         <a href="#overview"> Overview </a>
                         <a href="#overview"> Accomplishments </a>
                     </div>
-                    </button>
                 </div>
             </li>
 
@@ -60,7 +69,6 @@
                         <a href="#overview"> a2i platform </a>
                         <a href="#overview"> Advantages of real-time data sharing </a>
                     </div>
-                    </button>
                 </div>
             </li>
 
@@ -71,7 +79,6 @@
                         <a href="#overview"> Demonstrations </a>
                         <a href="#overview"> Visitor's visit </a>
                     </div>
-                    </button>
                 </div>
             </li>
             
@@ -82,115 +89,129 @@
 
     <!-- NavBar End-->
 
-    <!-- Study Procedure-->
-    <!-- All Paragraph Texts -->
-    <div class = 'study-procedure'>
-        <h1> Project Aim </h1>
-        <p> We proposed a randomized control trial (RCT) study to investigate the impact of innovative Sultana’s 
-            reusable cloth pads (improved cloth pad made of flannel cloth and water proof barrier sheet) with 
-            appropriate laundering practices, on the incidence of reproductive tract infections and urinary tract 
-            infections (UTIs) in women. Based on the eight school and eight readymade garments factory pilot testing experiences, 
-            the uptake of the of Sultana reusable cloth pad was over 76% among both women and girls and it reduced absenteeism both in schools 
-            (by 8%) and in the RMGs (by 1%). The pad was comfortable, did not stain, soft and reusable throughout the assessments. 
-            The effectiveness of hygienic menstrual products will be assessed in reducing incidence of RTIs, UTIs, and contributing to the reduction 
-            of antibiotic use and subsequently the prevention of antimicrobial resistance (AMR), and elucidating the genetic mechanisms underlying 
-            AMR through whole genome sequencing (WGS) using the Illumina platform, in Bangladesh through a comprehensive research 
-            and data integration approach.  </p>
+    <!-- Projects Start -->
+
+    <div class = 'projects'>
+        <img src = "./assets/FlowChart.png"></img>
+        <div class = "project-text">
+            <h2>
+                Prevention of UTI and RTI Among Women Using Innovative Solutions
+            </h2>
+            <p> 
+                We proposed a randomized control trial (RCT) study to investigate the impact of innovative
+                reusable cloth pads (improved cloth pad made of flannel cloth and water proof barrier sheet) with 
+                appropriate laundering practices, on the incidence of reproductive tract infections and urinary tract 
+                infections (UTIs) in women. Based on the eight school and eight readymade garments factory pilot testing experiences, 
+                the uptake of the of Sultana reusable cloth pad was over 76% among both women and girls and it reduced absenteeism both in schools 
+                (by 8%) and in the RMGs (by 1%).
+            </p>
+
+            <div class = "project-link"><a href = "./initiatives/uti-and-rti-prevention.html"> Learn More >> </a></div>
+        </div>
     </div>
 
-    <div class = 'study-procedure'>
-        <!-- <h1> Objectives and Methodologies </h1> -->
-        <div class = "row">
-            <h1>Objectives </h1>
-            <h1>Methodologies </h1>
-        </div>
-        <div class = "row">
-            <p>•Investigate the effect of innovative reusable cloth pads including dryer and washer to prevent of RTIs and UTIs in women. </p>
-            <p>•A diverse group of women and adolescents from Bangladesh will provide baseline samples, collected by trained nurses and 
-                analyzed for RTIs and UTIs. Randomized intervention groups will receive reusable cloth pads, education via mobile apps, 
-                and regular data collection. Clinical data will assess the impact of cloth pad use on RTI and UTI prevention. </p>
-        </div>
-        <div class = "row">
-            <p>•Examine the effectiveness of hygienic menstrual products in reducing RTIs, UTIs, and thus contributing to the reduction of antibiotic use and AMR. </p>
-            <p>•We'll keep collecting data on RTI and UTI symptoms and specimens from both groups to assess hygienic menstrual product effectiveness in reducing 
-                incidence and uncover underlying causes. </p>
-        </div>
-        <div class = "row">
-            <p>•Characterize multi-drug resistant bacterial pathogens for antimicrobial resistance genes, virulence and phylogenetic diversity using WGS. </p>
-            <p>•Lab personnel will extract DNA and conduct Whole Genome Sequencing (WGS) to assess microbial diversity in urine, stool, and vaginal microbiomes. 
-                WGS identifies pathogen genetics, aiding in predicting disease severity, treatment outcomes, and drug-resistant strains. 
-                We'll also analyze genes related to antimicrobial resistance to understand resistance development. </p>
-        </div>
-        <div class = "row">
-            <p>•Assess the impact of web-based tools and mobile apps in educating and raising awareness about sustainable menstrual practices and AMR prevention 
-                and sharing real-time data into the national dashboard of the a2i (Aspire to Innovate). </p>
-            <p>•We'll develop a web tool with data entry and health education sessions featuring informative videos on our app. Training and education will 
-                focus on innovative hygienic product use. Real-time data on RTIs and UTIs, antibiotic use, and AMR status will go to the a2i database 
-                (https://a2i.gov.bd/), aiding decision-making and interventions, similar to its use for other viral infections. </p>
-        </div>
-    </div>
+
+
+    <!-- Projects End -->
+
 
     <!-- Team Information -->
     <div class = 'team'>
         <h1> Our Team </h1>
+        <button class="cursor-left" onclick="plusDivs(-1)">&#10094;</button>
         <div class = 'team-members'>
 
-            <div class = 'member'>
+            <div class = 'mySlides'>
                 <img class = "profile-pic" src="./assets/missing-face.png" alt="Missing image"></img>
                 <p>Dr. Maya Nadimpalli</p>
                 <p>PhD, MS</p>
                 <p>Assistant Professor in Environmental Health, Emory Rollins School of Public Health, Atlanta, USA</p>
             </div>
-            <div class = 'member'>
+            <div class = 'mySlides'>
                 <img class = "profile-pic" src="./assets/missing-face.png" alt="Missing image"></img>
                 <p>Dr. Aminul Islam</p>
                 <p> PhD</p>
                 <p>Scientist, Expertise in AMR surveillance and research.</p>
             </div>
-            <div class = 'member'>
+            <div class = 'mySlides'>
                 <img class = "profile-pic" src="./assets/missing-face.png" alt="Missing image"></img>
                 <p>Dr. K Zaman</p>
                 <p>PhD</p>
                 <p>Senior Scientist, icddrb</p>
             </div>
-            <div class = 'member'>
+            <div class = 'mySlides'>
                 <img class = "profile-pic" src="./assets/missing-face.png" alt="Missing image"></img>
                 <p>Dr. Mustafizur Rahman</p>
                 <p>PhD</p>
                 <p>Senior Scientist, Head of Virology Laboratory and Genome Centre, icddrb</p>
             </div>
-            <div class = 'member'>
+            <div class = 'mySlides'>
                 <img class = "profile-pic" src="./assets/missing-face.png" alt="Missing image"></img>
                 <p>Dr. Rizwana Khan</p>
                 <p>MPH</p>
                 <p>Assistant Scientist, icddrb</p>
             </div>
-            <div class = 'member'>
+            <div class = 'mySlides'>
                 <img class = "profile-pic" src="./assets/missing-face.png" alt="Missing image"></img>
                 <p>Dr. Kamrun Nahar</p>
                 <p>MBBS, MPH </p>
                 <p>Senior Research Investigator, icddrb</p>
             </div>
-            <div class = 'member'>
+            <div class = 'mySlides'>
                 <img class = "profile-pic" src="./assets/missing-face.png" alt="Missing image"></img>
                 <p>Farhana Sultana</p>
                 <p> PhD candidate</p>
                 <p> Associate Scientist, icddr,b</p>
             </div>
-            <div class = 'member'>
+            <div class = 'mySlides'>
                 <img class = "profile-pic" src="./assets/missing-face.png" alt="Missing image"></img>
                 <p>Dr. Amina Tahia Sharmin,</p>
                 <p>MBBS, MPH</p>
                 <p>Medical officer, icddrb</p>
             </div>
-            <div class = 'member'>
+            <div class = 'mySlides'>
                 <img class = "profile-pic" src="./assets/missing-face.png" alt="Missing image"></img>
                 <p>Dr. Md. Safiullah Sarker</p>
-                <p>Assistant Scientist, Virology Laboratory Infectious Diseases Division.</p>
+                <p>Assistant Scientist</p>
+                <p>Virology Laboratory Infectious Diseases Division.</p>
             </div>
 
         </div>
+        <button class="cursor-right" onclick="plusDivs(1)">&#10095;</button>
     </div>
+
+    <script>
+
+        var slideIndex = 5;
+        showDivs(slideIndex);
+      
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+      
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = x.length }
+          for (i = 0; i < x.length; i++) {
+            x[i].classList.remove("active"); // Remove active class from all slides
+          }
+          x[slideIndex - 1].classList.add("active"); // Add active class to current slide
+
+        }
+
+    </script>
+
+    <footer>
+        <div class="contact-us">
+            <h3> Contact Us </h3></br>
+            <p> Dr. Rizwana Khan</p>
+            <p> +880 1711824062</p>
+            <p> rizwana.khan@icddrb.org </p>
+        </div>
+        <p class = 'copyright'>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
 
   </body>
 </html>
