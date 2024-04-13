@@ -181,3 +181,7 @@ nav {
 .member img{
     border-radius: 50%;
 }
+
+.member p{
+    font-family: monospace, sans-serif;
+}
